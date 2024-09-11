@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 830px){
+
+    body{
+        background-position: center center;
+    }
+
+    header{
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    img{
+        width: 140px;
+        height: 140px;
+    }
+
+    ul > li{
+        margin-top: 30px;
+    }
+
+    #menu-2{
+        margin-top: 20px;
+    }
+
+    #entrar{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.63);
+    }
+
+    aside{
+        position: relative;
+        top: 90px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@media screen and (max-width: 440px){
+    h1{
+        font-size: 4em;
+    }
+
+    p{
+        width: 260px;
+    }
+
+    aside{
+        position: relative;
+        top: 110px;
+    }
+}

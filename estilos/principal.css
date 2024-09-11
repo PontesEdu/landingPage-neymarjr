@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+    /* fonts */
+/* menu */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu&display=swap');
+
+/* h1 */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&display=swap');
+
+
+/* config geral */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-menu: 'Noto Serif Telugu', serif;
+    --font-h1: 'Alexandria', sans-serif;
+}
+
+body{
+    
+    max-width: 1400px;
+
+    background: black url(../imagem/neymar-imagem2.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 110px;
+    height: 110px;
+}
+
+ul > li{
+    display: inline-block;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+
+.menu{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: var(--font-menu);
+    padding: 10px;
+}
+
+.menu:hover{
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+}
+
+/* config dos botoes */
+#entrar{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 1px 18px 1px black;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#entrar:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+    transition: 0.4s;
+}
+
+#registrar{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    box-shadow: 3px 1px 16px 1px black;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#registrar:hover{
+    background-color: rgba(0, 0, 0, 0.103);
+    border: 2px solid  rgba(0, 0, 0, 0.103);
+    transition: 0.4s;
+}
+
+
+
+    /* main */
+main{
+    margin-top: 80px;
+    width: 100%;
+}
+
+aside{
+    display: inline-block;
+    position: relative;
+    left: 12%;
+}
+
+h1{
+    font-size: 5em;
+    font-family: var(--font-h1);
+    color: #fff;
+    text-shadow: -1px 3px 14px black;
+}
+
+p{
+    margin-top: 5px;
+    width: 350px;
+    color: #fff;
+    line-height: 1.3em;
+    text-align: justify;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    margin-top: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #F50101;
+    color: white;
+    border: 1px solid #F50101;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 1px 16px 1px black;
+}
+
+button:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 10px;
+
+    transition: 0.4s;
+}
+    
+
